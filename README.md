@@ -1,6 +1,6 @@
 # NumPar
 
-The NumPar project allows you to determine the minimum number of particles required to reach a specific statistical precision in electron microscopy based measurements of particle size, shape or other measurands. Based on subsampling from a large particle measurement dataset, the code will find and fit a relation between the number of measured particles and the precision of a measured parameter (like the minimum Feret diameter, the aspect ratio,..).
+The NumPar project allows you to determine the minimum number of particles required to reach a specific statistical precision in electron microscopy based measurements of particle size, shape or other measurands. Based on subsampling from a large particle measurement dataset, the code will find and fit a relation between the number of measured particles and the precision of a measured parameter (e.g. the minimum Feret diameter, the aspect ratio,..).
 
 ## Installation
 
