@@ -17,7 +17,7 @@ In section 1.1, update the following line to point to your data file:
 
   frame = pd.read_csv('ParticleSizer_data.csv')
 
-Also adapt the names of the columns you want to read in:
+If needed, adapt the names of the columns you want to read in:
 
   frame.rename(columns={'Min. Feret': 'Fmin'}, inplace=True)
   
@@ -29,7 +29,7 @@ Also adapt the names of the columns you want to read in:
   
   frame.rename(columns={'Aspect Ratio': 'AR'}, inplace=True)
 
-At some later points in the code you can specify the measurand for which you want to execute a specific piece of code. So adapt it according to your wants.
+At some later points in the code you will be able to specify the measurand for which you want to execute a specific piece of code (e.g. measurand = 'Fmin')
 
 ### Run the notebook
 
